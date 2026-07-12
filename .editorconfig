@@ -1,0 +1,6 @@
+# upstream's own editorconfig (fork replaces this — standards-file conflict surface)
+root = true
+
+[*]
+indent_style = space
+indent_size = 2

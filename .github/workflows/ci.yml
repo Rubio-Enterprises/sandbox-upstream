@@ -1,0 +1,12 @@
+# Upstream's own CI — branch-filtered to main, so pushes to the fork's mirror
+# and sync branches never fire it.
+name: ci
+on:
+  push:
+    branches: [main]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: bash src/hello.sh

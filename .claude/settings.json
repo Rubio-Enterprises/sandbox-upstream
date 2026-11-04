@@ -1,11 +1,5 @@
 {
   "extraKnownMarketplaces": {
-    "claude-lsps": {
-      "source": {
-        "source": "github",
-        "repo": "Rubio-Enterprises/claude-lsps"
-      }
-    },
     "claude-plugins-official": {
       "source": {
         "source": "github",
@@ -34,13 +28,11 @@
   "enabledPlugins": {
     "1password@tools-skills": true,
     "anki-connect@tools-skills": true,
-    "bash-language-server@claude-lsps": true,
     "bin-scripts@tools-skills": true,
     "claude-code-setup@claude-plugins-official": true,
     "claude-md-management@claude-plugins-official": true,
     "code-modernization@claude-plugins-official": true,
     "commit-commands@claude-plugins-official": true,
-    "cue-lsp@claude-lsps": true,
     "defuddle@tools-skills": true,
     "finish-pr@tools-skills": true,
     "fork-maintenance@tools-skills": true,
@@ -56,16 +48,12 @@
     "playwright-migration@playwright-skills": true,
     "playwright-pom@playwright-skills": true,
     "procedure-validator@tools-skills": true,
-    "pyright@claude-lsps": true,
-    "regal-lsp@claude-lsps": true,
     "rubio-standards@rubio": true,
     "session-report@claude-plugins-official": true,
     "skill-creator@claude-plugins-official": true,
     "skill-deploy@tools-skills": true,
     "source-recon@tools-skills": true,
-    "swift-lsp@claude-plugins-official": true,
     "tailscale-serve@tools-skills": true,
-    "twelve-factor-audit@tools-skills": true,
-    "vtsls@claude-lsps": true
+    "twelve-factor-audit@tools-skills": true
   }
 }
